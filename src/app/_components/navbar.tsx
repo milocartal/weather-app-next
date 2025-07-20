@@ -23,7 +23,7 @@ export const Navbar: React.FC<NavbarProps> = ({
     >
       <AddCityForm setCurrent={setCurrent} />
 
-      <div className="w-fukk flex flex-col gap-4 overflow-y-auto">
+      <div className="flex w-full flex-col gap-4 overflow-y-auto">
         {cities.map((city: string) => (
           <Button
             key={city}
